@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "docker-pull-gather"
+version = "0.1.0"
+description = ""
+authors = ["MtkN1 <51289448+MtkN1@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "docker_pull_gather", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiodocker = "^0.21.0"
+rich = "^13.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
